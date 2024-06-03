@@ -1,0 +1,9 @@
+Frontend Developer
+1. Create react app: 
+			1. npx create-react-app app_name
+			2. Other react frameworks: Nextjs, Remix, Gatsby etc. 
+2. Seperate frontend repo, seperate backend repo
+3. In Frontend, 
+	1. Webpage designs,
+	2. Backend connections using Axios package or JS Fetch API
+	 
