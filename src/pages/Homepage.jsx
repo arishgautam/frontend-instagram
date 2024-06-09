@@ -1,19 +1,21 @@
-import React from "react";
-
-const Homepage = () => {
-
-//! yesma pachi required js hanni ho 
-//! frontend to backend connnect garni etc haru ko code haru yesma hani ho
+import React from 'react';
+import "./Homepage.css";
+import Sidenav from './navigation/Sidenav';
+import Mid from './timeline/Mid';
 
 
-  return(
+function Homepage() {
+  return (
+    <div className='homepage'>
+        <div className='homepage__nav'>
+        <Sidenav/>
+        </div>
 
-    // yesma chai design ko code haru html haru hanni ho 
-    // aru aru bootstrap haru material ui haru j pani use gare huncha design ko lagi html le sabai bananu parcha bhannne chaina hai
-    //mui components haru use garni sakee samma ramro practice ho pachi pani
-   <>Homepage</>
+        <div className='homepage__timeline'>
+        <Mid/>
+        </div>
+        </div>
   )
-};
+}
 
-export default Homepage;
-
+export default Homepage

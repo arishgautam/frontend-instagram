@@ -1,0 +1,12 @@
+.mid{
+    display: flex;
+    flex-direction: row;
+}
+
+.mid__left{
+    flex: 0.7;
+}
+
+.mid__right{
+    flex: o.3;
+}
